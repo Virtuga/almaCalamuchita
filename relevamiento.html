@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Trabajo Final</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trabajo Final Artesanias</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="relevamiento.html">Relevamiento</a></li>
+                <li><a href="modulacion.html">Modulacion</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="logos.html">Logos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="container">
+        <h2>Información a tener en cuenta</h2>
+        <hr>
+
+        <p>
+            <strong>Digitalización integral para “Alma Calamuchita”</strong><br><br>
+
+            <strong>Sobre la Empresa:</strong> Alma Calamuchita es una tienda de artesanías ubicada en el corazón del Valle de Calamuchita, Córdoba, Argentina.<br><br>
+            Su propósito es ofrecer al público local y turístico una amplia gama de productos regionales: tejidos artesanales, cerámicas, alimentos tradicionales (dulces, mieles, infusiones), cosmética natural y piezas decorativas, elaboradas por productores y artesanos locales.<br><br>
+            La tienda nació con una fuerte identidad cultural y busca preservar y promover las tradiciones del interior argentino a través de sus productos. La atención personalizada, la cercanía con los productores y la curaduría de los artículos son parte esencial de su filosofía de trabajo.<br><br>
+
+            <strong>Necesidades del Cliente:</strong> En el marco de un proceso de modernización y expansión digital, Alma Calamuchita solicita el desarrollo de una solución tecnológica integral que contemple dos frentes principales:
+        </p>
+
+        <img class="image" src="assets/img/backend.jpg" alt="backend">
+
+        <p>
+            🔹 <strong>Sistema de Gestión Interna en la Nube (Backoffice)</strong><br>
+            - Centralizado en la nube, accesible desde cualquier dispositivo.<br>
+            - Para uso exclusivo del equipo de la tienda (administradores y vendedores).<br>
+            - Gestión completa del negocio: stock, compras, ventas, remitos, usuarios, roles y facturación.<br><br>
+
+            🔹 <strong>Página Web Pública (E-commerce + Institucional)</strong><br>
+            - Independiente del sistema de gestión, pero conectada mediante APIs.<br>
+            - Visibilidad de productos, promociones, institucional, contacto.<br>
+            - Funcionalidad de carrito de compras con login mediante usuarios.<br>
+            - Envíos con geolocalización y gestión de puntos frecuentes.<br><br>
+
+            <strong>Objetivo General del Proyecto:</strong><br>
+            Permitir la digitalización total del proceso comercial e institucional de la tienda, manteniendo una identidad visual clara, amigable y representativa del espíritu artesanal de Alma Calamuchita.<br>
+            La solución busca mejorar la gestión operativa interna y ampliar el alcance del negocio al mundo digital.
+        </p>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy;2025</p>
+    </footer>
+</body>
+</html>

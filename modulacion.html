@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabajo Final</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    body {
+      font-family: "Lucida Console", "Courier New", monospace;
+      background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    h1 {
+      background-color: black;
+      padding: 10px;
+      margin: 0;
+      color: #92a4ff;
+    }
+
+    h2 {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .tabla-container {
+      display: block;
+      margin: 20px auto;
+      width: 90%;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 2px solid rgb(200, 200, 200);
+      font-size: 1.1rem;
+      background-color: #fff;
+      margin-bottom: 40px;
+    }
+
+    th, td {
+      border: 1px solid rgb(190, 190, 190);
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: rgb(162, 162, 162);
+      text-align: left;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #FFF;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trabajo Final Artesanías</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="relevamiento.html">Entrevista</a></li>
+        <li><a class="active" href="modulacion.html">Modulación</a></li>
+        <li><a href="presupuesto.html">Presupuesto</a></li>
+        <li><a href="logos.html">Logos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h2>Módulos</h2>
+  <hr />
+
+  <div class="tabla-container">
+    <!-- Primera tabla: Sistema de Gestión -->
+    <table>
+      <colgroup>
+        <col style="background-color: #d8b4f8;"> <!-- Lila -->
+        <col style="width: 25%;">
+        <col style="width: 55%;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Módulo</th>
+          <th>Tareas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SISTEMA DE GESTIÓN</td>
+          <td>MÓDULO DE USUARIOS Y CLIENTES</td>
+          <td>Gestión CRUD de usuarios internos.<br>
+              Login seguro con sistema de roles: administrador y vendedor.<br>
+              Vendedores solo acceden a módulos comerciales (no facturación ni stock completo).<br>
+              Gestión de clientes registrados (para ventas o consultas desde la web).</td>
+        </tr>
+        <tr>
+          <td>SISTEMA DE GESTIÓN</td>
+          <td>MÓDULO DE STOCK Y PRODUCTOS</td>
+          <td>Alta, baja y edición de productos.<br>
+              Control dinámico de stock con entradas y salidas.<br>
+              Asociación de productos con proveedores.<br>
+              Alertas de bajo stock.</td>
+        </tr>
+        <tr>
+          <td>SISTEMA DE GESTIÓN</td>
+          <td>MÓDULO DE COMPRAS</td>
+          <td>Registro de compras realizadas (por administrador o vendedor).<br>
+              Asociación de compras con proveedores.<br>
+              Remitos de ingreso generados automáticamente.</td>
+        </tr>
+        <tr>
+          <td>SISTEMA DE GESTIÓN</td>
+          <td>MÓDULO DE VENTAS</td>
+          <td>Registro de ventas (presenciales o vía web).<br>
+              Emisión automática de facturas.<br>
+              Registro de remitos de salida.<br>
+              Control de métodos de pago utilizados.</td>
+        </tr>
+        <tr>
+          <td>SISTEMA DE GESTIÓN</td>
+          <td>MÓDULO DE MARKETING</td>
+          <td>Creación y edición de promociones (por fecha, medio de pago, categoría de productos).<br>
+              Control de promociones activas.<br>
+              Conexión con el front público para mostrar descuentos y ofertas destacadas.</td>
+        </tr>
+        <tr>
+          <td>SISTEMA DE GESTIÓN</td>
+          <td>MÓDULO DE ENVÍOS</td>
+          <td>Geolocalización de direcciones ingresadas por clientes.<br>
+              Posibilidad de registrar "domicilios frecuentes".<br>
+              Gestión de envíos por zonas o repartidores externos.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Segunda tabla: Página web -->
+    <table>
+      <colgroup>
+        <col style="background-color: #a0e7a0;"> <!-- Verde -->
+        <col style="width: 25%;">
+        <col style="width: 55%;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Módulo</th>
+          <th>Tareas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PÁGINA WEB e-commerce y institucional</td>
+          <td>MÓDULO DE CATÁLOGO DE PRODUCTOS</td>
+          <td>Visualización de productos por categorías.<br>
+              Filtro por precio, tipo de producto, disponibilidad.<br>
+              Imágenes de calidad y descripciones breves.</td>
+        </tr>
+        <tr>
+          <td>PÁGINA WEB e-commerce y institucional</td>
+          <td>MÓDULO DE COMPRAS ONLINE</td>
+          <td>Carrito de compras.<br>
+              Login obligatorio mediante cuenta de Google.<br>
+              Registro automático como cliente tras login.<br>
+              Integración con pasarela de pagos (MercadoPago o similar).<br>
+              Dirección de entrega configurable por el cliente.</td>
+        </tr>
+        <tr>
+          <td>PÁGINA WEB e-commerce y institucional</td>
+          <td>MÓDULO DE PROMOCIONES</td>
+          <td>Zona destacada para promociones activas.<br>
+              Promociones destacadas por tiempo limitado.<br>
+              Compatible con dispositivos móviles.</td>
+        </tr>
+        <tr>
+          <td>PÁGINA WEB e-commerce y institucional</td>
+          <td>MÓDULO DE CONTACTO</td>
+          <td>Formulario con campos: nombre, email, mensaje.<br>
+              Envío automático a casilla de correo del negocio.<br>
+              Integración con mapa de ubicación de la tienda física.</td>
+        </tr>
+        <tr>
+          <td>PÁGINA WEB e-commerce y institucional</td>
+          <td>MÓDULO INSTITUCIONAL</td>
+          <td>Secciones con contenido autoadministrable:<br>
+              Historia de la tienda.<br>
+              Misión, visión y valores.<br>
+              Fotografías antiguas o del proceso artesanal.<br>
+              Identidad visual coherente con la estética regional.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer class="footer">
+    <p>Derechos reservados &copy;2025</p>
+  </footer>
+</body>
+</html>

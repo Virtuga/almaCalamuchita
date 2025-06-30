@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Trabajo Final</title>
+    <style>
+        
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+     <h1>Trabajo Final Artesanias </h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="relevamiento.html">Entrevista</a></li>
+                <li><a href="modulacion.html">Modulacion</a></li>
+                <li><a class= "active" href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="logos.html">Logos</a></li>
+
+            </ul>
+
+        
+        </nav>
+    </header>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(43, 70, 226);">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+
+            </colgroup>
+            <th>SISTEMA DE GESTION</th>
+            <th>Tiempo Estimado</th>
+            <th>Costo Estimado</th>
+
+            <tr>
+                <td>MÓDULO DE USUARIOS Y CLIENTES</td>
+                <td>1 semana</td>
+                <td>100.000</td>
+            </tr>
+                          
+
+            <tr>
+                <td>MÓDULO DE STOCK Y PRODUCTOS</td>
+                <td>1 semana</td>
+                <td>120.000</td>
+            </tr>
+                
+
+            <tr> <td>MÓDULO DE COMPRAS</td>
+                <td>1 semana</td>
+                <td>100.000</td>
+            </tr>
+               
+            <tr><td>MÓDULO DE VENTAS</td>
+                <td>1 semana</td>
+                <td>120.000</td>
+            </tr>
+                
+
+            <tr><td>MÓDULO DE MARKETING</td>
+                <td>3 días</td>
+                <td>80.000</td>
+            </tr>
+                
+
+            <tr><td>MÓDULO DE ENVÍOS</td>
+                <td>4 días</td>
+                <td>90.000</td>
+            </tr>
+            
+            
+
+        </table>
+        </div>
+
+        <hr>
+
+        <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color:rgb(44, 112, 90);">
+                <col>
+                <col>
+                <col>
+                <col>
+
+            </colgroup>
+            <th>PAGINA WEB</th>
+            <th>Tiempo Estimado</th>
+            <th>Costos Estimados</th>
+
+            <tr><td>MÓDULO DE CATÁLOGO DE PRODUCTOS</td>
+                <td>4 dias</td>
+                <td>80.000</td>
+            </tr>
+                
+
+            <tr><td> MÓDULO DE COMPRAS ONLINE</td>
+                <td>1 semana</td>
+                <td>140.000</td>
+            </tr>
+                
+
+            <tr><td>MÓDULO DE PROMOCIONES</td>
+                <td>3 días</td>
+                <td>60.000</td>
+            </tr>
+                
+
+            <tr><td>MÓDULO DE CONTACTO</td>
+                <td>2 días</td>
+                <td>40.000</td>
+                        
+            </tr>
+                
+
+            <tr><td>MÓDULO INSTITUCIONAL</td>
+                <td>2 días</td>
+                <td>40.000</td>
+            </tr>
+
+             <tr><td>TOTAL</td>
+                <td>6 semanas</td>
+                <td>970.000 AR$</td>
+            </tr>
+          
+        </table>
+        </div>
+
+
+    <hr>
+
+    <p>Notas: <br>
+El tiempo de desarrollo puede variar según necesidades específicas, disponibilidad de insumos (imágenes, textos institucionales, etc.) y validaciones del cliente.
+<br>
+
+El presupuesto incluye documentación funcional básica y soporte durante la entrega.
+<br>
+
+El diseño visual se adapta a la identidad artesanal de la marca, con especial atención en usabilidad y estética responsive.
+    </p>
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy;2025</p>
+    </footer>
+</body>
+</html>
